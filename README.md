@@ -1,4 +1,4 @@
-## DR-55 Sync Kit
+## DR-55 Sync Kit サポートページ
 
 回路図は[こちら](https://github.com/dwt98/dr55sync/raw/master/dr55syncVer2errata_git_sch.pdf)
 
