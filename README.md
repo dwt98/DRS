@@ -1,4 +1,7 @@
-## Welcome to GitHub Pages
+## DR-55 Sync Kit
+
+回路図は[こちら](https://github.com/dwt98/DRS/edit/master/README.md)
+
 
 You can use the [editor on GitHub](https://github.com/dwt98/DRS/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
