@@ -18,9 +18,11 @@
 [Version 2.1](https://github.com/dwt98/DRS/raw/master/DR55_MIDI_Sync_Build_Guide_V2.1.pdf)
 
 *完成品をご購入の場合*
+
 組立説明書の "2.DR-55との接続" 以降を参照して、お手持ちのDR-55と接続します。
 
 *キットでご購入の場合*
+
 組立説明書を参照して、組み立てと接続を行います。
 
 ### お問い合わせ
