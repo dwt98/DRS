@@ -9,9 +9,9 @@
 
 基板に記載のバージョンを確認ください。
 
-[Version 2.0](https://github.com/dwt98/dr55sync/raw/master/DR55_MIDI_Sync_Build_Guide_V2.0.pdf)
+[Version 2.0](https://github.com/dwt98/DRS/raw/master/DR55_MIDI_Sync_Build_Guide_V2.0.pdf)
 
-[Version 2.1](https://github.com/dwt98/dr55sync/raw/master/DR55_MIDI_Sync_Build_Guide_V2.1.pdf)
+[Version 2.1](https://github.com/dwt98/DRS/raw/master/DR55_MIDI_Sync_Build_Guide_V2.1.pdf)
 
 ### お問い合わせ
 
