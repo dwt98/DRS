@@ -4,24 +4,23 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 
 ここでは、変更の手順を説明します。
 
-### 用意するのも
+### 用意するもの
 
-+ PC (Windows/Mac/Linux)
-+ USBシリアル変換アダプタ　例：https://www.switch-science.com/catalog/1032/
++ PC (Windows/Mac)
++ USBシリアル変換アダプタ　例：[SwitchScience社製変換アダプタ](https://www.switch-science.com/catalog/1032/)
 + USBケーブル（PCと変換アダプタを接続）
-+ Arduino IDE  開発環境ソフトウエア　https://www.arduino.cc/en/Main/Software
-+ 変換アダプタ用ドライバー　入手方法は、変換アダプタの説明書を参照するか、販売元に確認
++ Arduino IDE  開発環境ソフトウエア  [ダウンロード](https://www.arduino.cc/en/Main/Software)
++ 変換アダプタ用USBドライバー　上記アダプタの場合、[FTDI社のドライバ](http://www.ftdichip.com/Drivers/VCP.htm)を用意。それ以外は、変換アダプタの説明書を参照するか、販売元に確認。
 
 ### 準備
 
 1. PCに、Arduino IDEをインストールします。
 2. 変換アダプタ用ドライバをインストールします。
-3. 上で例示のアダプタの場合、FTDI社のドライバをインストールする。http://www.ftdichip.com/Drivers/VCP.htm それ以外の場合は、アダプタの販売元で確認してください。
 
 ### プログラム変更
 
-1. DR-55 MIDI Sync Boardのソースファイルを、ダウンロードします。
-> https://raw.githubusercontent.com/dwt98/dr55sync/master/Dr55_Sync.ino
+1. DR-55 MIDI Sync Boardのソースファイルを、[ダウンロード](https://raw.githubusercontent.com/dwt98/dr55sync/master/Dr55_Sync.ino)
+します。
 2. ソースファイルをArduino IDEでオープンし、ソースを変更します。
 3. ソースを変更したら、「検証」ボタン（左上のチェックマーク）をクリック。エラーがでないことを確認。
 
@@ -44,12 +43,12 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 
 ### トラブルシューティング
 
-*手順10で、それっぽいポート名が表示されない。*
+*手順8で、それっぽいポート名が表示されない。*
 + USBケーブルを一旦抜いて、しばらく待ってから挿し直す。
 + PCを再起動する。
 + USBドライバを再インストールする。変換アダプタの型番＋”ドライバ”で、ネット検索すると、対処法などの情報が見つかることがあります。
 
-*手順13でエラーが表示される。*
+*手順11でエラーが表示される。*
 + DR-55のDIPスイッチがPGMになっているか確認。
 + USBケーブルがデータ通信対応のものか。充電用のUSBケーブルは使えません。
 + 変換アダプタがピンヘッダに奥まで差し込まれているか、向きは合っているか。
