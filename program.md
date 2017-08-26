@@ -33,7 +33,16 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 5. Arduino IDEで、以下の設定をする。
 6. [ツール]メニュー - [ボード] - [Arduino Pro or Pro Mini] を選択。
 7. [ツール]メニュー - [プロセッサ] - [ATmega328 (5V, 16MHz)] を選択。
-8. [ツール]メニュー - [ポート] - [/dev/cu.usbserial-XXXXX]を選択。(XXXXは何かの文字が入ります）変換アダプタによって名前が異なることがある。
+8. シリアルポートを選びます。
+* Macの場合 *
+[ツール]メニュー - [ポート] - [/dev/cu.usbserial-XXXXX]を選択。(XXXXは何かの文字が入ります）変換アダプタによって名前が異なることがある。
+![Mac 設定メニュー](pic/usbserial_mac.png)
+* Windowsの場合 *
+デバイスマネージャーでUSBシリアルポートの名前を調べます。下のサンプルでは、COM14という名前だとわかります。
+![Mac 設定メニュー](pic/usbserial_pc1.png)
+Arduinoのツールメニューで、COM14を選択します。
+![Mac 設定メニュー](pic/usbserial_pc2.png)
+
 9. DR-55 ボードのDIPスイッチの１番をPGMに設定。
 10. Arduino IDEで、「マイコンボードに書き込む」(検証ボタンの隣の右矢印ボタン）をクリックして、書き込み。
 11. 「ボードへの書き込みが完了しました」と表示されれば転送終了。
