@@ -35,10 +35,14 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 6. [ツール]メニュー - [ボード] - [Arduino Pro or Pro Mini] を選択。
 7. [ツール]メニュー - [プロセッサ] - [ATmega328 (5V, 16MHz)] を選択。
 8. シリアルポートを選びます。  
+
 **Macの場合**  
+
 [ツール]メニュー - [ポート] - [/dev/cu.usbserial-XXXXX]を選択。(XXXXは何かの文字が入ります）変換アダプタによって名前が異なることがある。
 ![Mac 設定メニュー](pic/usbserial_mac.png)  
+
 **Windowsの場合**  
+
 デバイスマネージャーでUSBシリアルポートの名前を調べます。下のサンプルでは、COM14という名前だとわかります。
 ![Mac 設定メニュー](pic/usbserial_pc1.png)
 Arduinoのツールメニューで、COM14を選択します。
