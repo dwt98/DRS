@@ -29,6 +29,7 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 1. DR-55からSync Boardを外すか、DR-55の電源が切れていることを確認。
 2. 変換アダプタに、電圧切り替え（5V/3.3V）がある場合は、5Vに設定する。
 3. 変換アダプタをArduinoのピンヘッダーにつなぐ。向きに注意。送信(TX), 受信(RX)が相互に接続されて、電源(VCC)ピンが合っていればよい。
+![USBシリアル変換アダプタ](pic/usbadaptor.jpg)
 4. 変換アダプタをUSBケーブルでPCにつなぐ。Windowsで初めての接続の場合は、USBドライバのインストールが始まる時がある。Arduinoに電源が供給されるので、赤いLEDが点く。
 5. Arduino IDEで、以下の設定をする。
 6. [ツール]メニュー - [ボード] - [Arduino Pro or Pro Mini] を選択。
