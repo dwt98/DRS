@@ -9,13 +9,25 @@ DR-55 MIDI Sync Boardは、マイコンにArduinoを使用しています。Ardu
 + PC (Windows/Mac)
 + USBシリアル変換アダプタ　例：[SwitchScience社製変換アダプタ](https://www.switch-science.com/catalog/1032/)
 + USBケーブル（PCと変換アダプタを接続）
-+ Arduino IDE  開発環境ソフトウエア  [ダウンロード](https://www.arduino.cc/en/Main/Software)
-+ 変換アダプタ用USBドライバー　上記アダプタの場合、[FTDI社のドライバ](http://www.ftdichip.com/Drivers/VCP.htm)を用意。それ以外は、変換アダプタの説明書を参照するか、販売元に確認。
 
-### 準備
+### ソフトウェアの準備
 
-1. PCに、Arduino IDEをインストールします。
-2. 変換アダプタ用ドライバをインストールします。
+1. PCに、Arduino IDE 開発環境をインストールします。
+
+[ここ](https://www.arduino.cc/en/Main/Software)から、ダウンロードします。
+
+2. 変換アダプタ用USBドライバーをインストールします。
+
+上記アダプタの場合、[FTDI社のドライバ](http://www.ftdichip.com/Drivers/VCP.htm)をダウンロードして、インストールします。それ以外のアダプタは、変換アダプタの説明書を参照するか、販売元に確認してください。
+
+3. Metro ライブラリをインストールします。
+
+[ここ](https://github.com/thomasfredericks/Metro-Arduino-Wiring/archive/master.zip)をクリックして、Metroライブラリをダウンロードします。ダウンロードされたzipファイルを解凍すると、解凍フォルダの中に”Metro”というフォルダが現れます。この”Metro”フォルダを、以下のフォルダの中に置きます。 
+
+*Macの場合*　　　書類/Arduino/libraries
+*Windowsの場合*　ライブラリ/ドキュメント/Arduino/libraries
+
+4. Arduino IDEだ立ち上がっている場合は、再起動します。
 
 ### プログラム変更
 
