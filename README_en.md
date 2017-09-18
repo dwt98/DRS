@@ -26,7 +26,7 @@ Regarding the MIDI implimentation, please see [here.](https://github.com/dwt98/d
 
 You can find further information [here.](https://github.com/dwt98/dr55sync/)
 
-### Sepprt
+### Support
 
 If you have questions please let me know. 
 
