@@ -1,5 +1,7 @@
 ## DR-55 MIDI Sync Board サポートページ
 
+English page is [here.](README_en.md)
+
 この度は、DR-55 MIDI Sync Board をお買い上げいただき、ありがとうございました。
 
 ここから、ボードの組立説明書をダウンロードいただけます。
